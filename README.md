@@ -23,8 +23,8 @@ ___
 
 [x] java
 
-[x] c
+- [x] c
 
-[ ] c^
+- [ ] c^
 
 :bowtie:
