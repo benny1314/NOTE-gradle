@@ -12,4 +12,6 @@
   * [使用方法](write_use_method.md)
   * [默认任务](write_default_task.md)
   * [通过 DAG 配置](write_dag_config.md)
+* [Java构建](java.md)
+  * [基础的 Java 项目](java_basic_project.md)
 
