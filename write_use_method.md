@@ -25,3 +25,4 @@ File[] fileList(String dir) {
 
 ```
 
+这种方法可以在多项目构建的子项目之间共享
