@@ -35,9 +35,9 @@ Hello world!
 
 #### 如果不使用 `-q` 模式，构建tasks
 
-执行结果就会是这样 
+    gradle hello
 
-    gradle -q hello
+执行结果就会是这样 
 
 ```
 :hello
