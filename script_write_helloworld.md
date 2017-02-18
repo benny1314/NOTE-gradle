@@ -8,11 +8,6 @@
 
 ### 1. 第一个构建脚本
 
-
-
-
-
-
 ```
 task hello {
     doLast {
@@ -29,7 +24,7 @@ task hello {
 
 需要注意的是：
 
-1. **hello** 是 任务名
-2. `-q` 代表quite模式，不会生成Gradle的日志信息，只能看到tasks的输出，是的输出更加清晰
+1. `-q` 代表quite模式，不会生成Gradle的日志信息，只能看到tasks的输出，是的输出更加清晰
+2. **hello** 是 任务名
 
 
