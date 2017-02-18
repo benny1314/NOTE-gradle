@@ -6,4 +6,5 @@
   * [简单的构建任务](script_write_helloworld.md)
   * [构建脚本代码](write_repid_script.md)
   * [任务依赖](write_tasks_dependson.md)
+  * [动态任务](write_dynamic_tasks.md)
 
