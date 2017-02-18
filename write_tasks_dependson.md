@@ -9,7 +9,7 @@ task cook << {
     println "开始做饭🍚"
 }
 
-task eat << {
+task eat(dependsOn: cook) << {
     print "正在吃做好的饭🍚"
 }
 
