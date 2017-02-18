@@ -18,7 +18,7 @@ Gralde 学习笔记
 一、 关于 Gradle
 1. 介绍
 2. 概述
-二.与现有的工作基础
+二. 与现有的工作基础
 3. 安装 Gradle
 4. 使用 Gradle 命令行
 5. Gradle 包装
