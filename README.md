@@ -33,7 +33,7 @@ Gralde 学习笔记
 14. 嵌入 Gradle 使用模具 API
 15. 生成缓存
 
-> 三、 写作 Gradle 生成脚本
+> 三、 编写 Gradle 生成脚本 【 Working with existing builds 】
 
 16. 构建脚本基础知识
 17. 建立初始化插件
