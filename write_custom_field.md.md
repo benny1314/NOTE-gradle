@@ -17,3 +17,13 @@ task printTaskProperties << {
 
 ```
 
+`gradle -q printTaskProperties` 命令的输出
+
+```
+> gradle -q printTaskProperties
+myValue
+
+```
+
+给任务加自定义属性是没有限制的. 你可以在 13.4.2, “自定义属性” 里获得更多的信息.
+
