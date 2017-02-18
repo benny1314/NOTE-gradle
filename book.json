@@ -1,3 +1,32 @@
 {
-
+    "plugins": [
+        "advanced-emoji",
+        "-search",
+        "search-pro",
+        "github",
+        "prism",
+        "-highlight",
+        "toggle-chapters",
+        "splitter",
+        "bootstrap-callout"
+    ],
+    "pluginsConfig": {
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord": [
+                "Gitbook Use"
+            ]
+        },
+        "github": {
+            "url": "https://github.com/benny1314"
+        },
+        "advanced-emoji": {
+            "embedEmojis": true
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-okaidia.css"
+            ]
+        }
+    }
 }
