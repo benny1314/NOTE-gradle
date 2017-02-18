@@ -133,9 +133,9 @@ uploadArchives {
 
 运行 `gradle uploadArchives` 命令来发布 JAR 文件.
 
+## 创建 Eclipse 项目
 
-
-
+为了把你的项目导入到 eclipse, 你需要加入另外一个插件:
 
 
 
