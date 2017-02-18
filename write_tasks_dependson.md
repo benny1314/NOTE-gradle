@@ -6,7 +6,7 @@
 
 ```
 task cook << {
-    println "开始做饭！"
+    println "开始做饭🍚"
 }
 
 task eat << {
