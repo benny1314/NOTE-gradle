@@ -11,4 +11,5 @@
   * [自定义任务属性](write_custom_field.md.md)
   * [使用方法](write_use_method.md)
   * [默认任务](write_default_task.md)
+  * [通过 DAG 配置](write_dag_config.md)
 
