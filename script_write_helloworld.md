@@ -8,6 +8,8 @@
 
 ### 1. 第一个构建脚本
 
+> build.gradle
+
 ```
 task hello {
     doLast {
@@ -46,7 +48,28 @@ Hello world
 BUILD SUCCESSFUL
 
 Total time: 0.9 secs
+
 ```
+
+## 快捷的任务定义
+
+定义 hello 任务，还可以使用更简明的方法
+
+### 快捷的构建任务定义
+
+> build.gradle
+
+```
+task hello << {
+    println 'Hello world!'
+}
+
+```
+
+它定义了一个叫做 hello 的任务, 这个任务是一个**可以执行的闭包**
+
+与前面的例子比较，`doLast{...}` 被替换成了 `<<` ，它们有一样的功能，但是看上去更加简洁了。
+
 
 
 

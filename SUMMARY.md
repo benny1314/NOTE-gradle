@@ -3,5 +3,6 @@
 * [前言](README.md)
 * [安装](install_gradle.md)
 * [编写构建脚本](write_gradle_script.md)
-  * [编写 Hello World](script_write_helloworld.md)
+  * [简单的构建任务](script_write_helloworld.md)
+  * [构建脚本代码](write_repid_script.md)
 
