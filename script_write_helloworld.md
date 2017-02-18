@@ -6,3 +6,30 @@
 
 严格来说它是一个**构建配置脚本** (build configuration script). 这个脚本定义了一个 **project** 和它的 **tasks**.
 
+### 1. 第一个构建脚本
+
+
+
+
+
+
+```
+task hello {
+    doLast {
+        println 'Hello world!'
+    }
+}
+
+```
+
+进入脚本所在的文件夹然后输入 `gradle -q hello` 来执行构建脚本:
+
+    > gradle -q hello
+    Hello world!
+
+需要注意的是：
+
+1. **hello** 是 任务名
+2. `-q` 代表quite模式，不会生成Gradle的日志信息，只能看到tasks的输出，是的输出更加清晰
+
+
