@@ -107,17 +107,33 @@ test {
 
 ```
 
-### 哪些属性是可用的? ❗️❗️❗️❗️❗️
+### 哪些属性是可用的? ❗️❗️❗️❗️❗️✡️
 
 你可以使用 gradle properties 命令来列出项目的所有属性. 这样你就可以看到 Java 插件加入的属性以及它们的默认值.
 
-你配置好的属性，此时 执行命令 build gradle 也会打印出来。
+你配置好的属性，此时 执行命令 `build gradle` 也会打印出来。
 
 
+## 发布 JAR 文件
 
+通常 JAR 文件需要在某个地方发布. 为了完成这一步, 你需要告诉 Gradle 哪里发布 JAR 文件. 在 Gradle 里, 生成的文件比如 JAR 文件将被发布到仓库里. 在我们的例子里, 我们将发布到一个本地的目录. 你也可以发布到一个或多个远程的地点.
 
+###  发布 JAR 文件
 
+> build.gradle
 
+```
+uploadArchives {
+    repositories {
+       flatDir {
+           dirs 'repos'
+       }
+    }
+}
+
+```
+
+运行 `gradle uploadArchives` 命令来发布 JAR 文件.
 
 
 
