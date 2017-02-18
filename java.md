@@ -12,4 +12,7 @@ multiproject/
 
 未完待续   ❌ ❌ ❌ ❌ ❌ ❌ ❌
 
-注意: 这个例子的代码可以在 **samples/java/multiproject** 里找到. **要注意看**
+注意: 这个例子的代码可以在 **samples/java/multiproject** 里找到. **要注意看**‘
+
+
+shell 文件夹 /Users/benny/myapplication/gradle_user_guide
