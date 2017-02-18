@@ -19,7 +19,7 @@ Gralde 学习笔记
 
 > 二、 与现有的工作基础  【 Working with existing builds 】
 
-3. [安装 Gradle](https://benny1314.gitbooks.io/gradle/content/install_gradle.html) ✅
+3. [安装 Gradle](https://benny1314.gitbooks.io/gradle/content/install_gradle.html) √
 4. 使用 Gradle 命令行
 5. Gradle 包装
 6. Gradle 守护进程
