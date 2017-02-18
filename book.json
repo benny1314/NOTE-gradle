@@ -5,7 +5,8 @@
         "search-pro",
         "github",
         "prism",
-        "highlight",
+        "-highlight",
+        "prism-themes",
         "toggle-chapters",
         "splitter",
         "bootstrap-callout"
