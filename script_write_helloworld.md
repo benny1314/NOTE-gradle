@@ -28,6 +28,7 @@ Hello world!
 ```
 
 
+
 需要注意的是：
 
 1. `-q` 代表quite模式，不会生成Gradle的日志信息，只能看到tasks的输出，使输出更加清晰
