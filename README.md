@@ -60,7 +60,7 @@ Gralde 学习笔记
 38. 宣布插件
 39. 生成通知插件
 
-> 四、 扩展生成
+> 四、 扩展生成 【 Extending the build 】
 
 40. 编写自定义任务类
 41. 编写自定义插件
@@ -69,7 +69,7 @@ Gralde 学习笔记
 44. 初始化脚本
 45. Gradle 测试工具包
 
-> 五、 建设 JVM 项目
+> 五、 建设 JVM 项目 【 Building JVM projects 】
 
 46. Java 快速入门
 47. Java 插件
