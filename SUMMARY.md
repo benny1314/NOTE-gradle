@@ -5,4 +5,5 @@
 * [编写构建脚本](write_gradle_script.md)
   * [简单的构建任务](script_write_helloworld.md)
   * [构建脚本代码](write_repid_script.md)
+  * [任务依赖](write_tasks_dependson.md)
 
