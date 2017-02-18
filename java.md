@@ -12,4 +12,4 @@ multiproject/
 
 未完待续   ❌ ❌ ❌ ❌ ❌ ❌ ❌
 
-注意: 这个例子的代码可以在 **samples/java/multiproject** 里找到.
+注意: 这个例子的代码可以在 **samples/java/multiproject** 里找到. **要注意看**
