@@ -14,4 +14,5 @@
   * [通过 DAG 配置](write_dag_config.md)
 * [Java构建](java.md)
   * [基础的 Java 项目](java_basic_project.md)
+  * [多项目的Java构建](java.md)
 
