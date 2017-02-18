@@ -37,3 +37,30 @@ MacBook-Pro:gradle_user_guide benny$ gradle -q eat
 
 ```
 
+eat 依赖于 cook，所以执行eat的时候，cook命令会被优先执行来作为启动 eat任务的条件
+
+### Lazy dependsOn - 其他的任务还没有存在
+
+> build.gradle
+
+```
+task taskX(dependsOn: 'taskY') << {
+    println 'taskX'
+}
+task taskY << {
+    println 'taskY'
+}
+
+```
+
+`gradle -q taskX` 命令的输出
+
+```
+> gradle -q taskX
+taskY
+taskX
+
+```
+
+
+
