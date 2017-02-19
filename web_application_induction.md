@@ -56,3 +56,9 @@ stopKey = 'foo'
 
 > Groovy web applications 你可以结合多个插件在一个项目中,所以你可以一起使用War 和 Groovy插件构建一个 Groovy 基础 web 应用.合适的 Groovy 类库会添加到你的 WAR 文件中.
 
+|属性名称	类型|	默认值|	描述  |
+|----------|---------|------|
+|contextPath|	String|	WAR 文件的base name	在 Jetty 容器里面的应用程序部署位置。
+|httpPort|	Integer|	8080	Jetty 监听 HTTP 请求的 TCP 端口。
+|stopPort|	Integer|	null	Jetty 监听 admin 请求的 TCP 端口。
+|stopKey|	String|	null	当需要请求停止时，传递给 Jetty 的key。
