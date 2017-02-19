@@ -15,4 +15,5 @@
 * [Java构建](java.md)
   * [基础的 Java 项目](java_basic_project.md)
   * [多项目的Java构建](java.md)
+* [依赖管理基础](depend_knowledge.md)
 
