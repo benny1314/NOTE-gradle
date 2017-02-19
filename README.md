@@ -20,13 +20,13 @@ Gralde 学习笔记
 > 二、 与现有的工作基础  【 Working with existing builds 】
 
 3. [安装 Gradle](https://benny1314.gitbooks.io/gradle/content/install_gradle.html) √
-4. 使用 Gradle 命令行
-5. Gradle 包装
-6. Gradle 守护进程
-7. 依赖关系管理基础知识
-8. 多项目生成的介绍
-9. 连续的生成
-10. 复合生成
+4. 使用 Gradle 命令行 √
+5. Gradle 包装  
+6. Gradle 守护进程 
+7. 依赖关系管理基础知识 √
+8. 多项目生成的介绍 
+9. 连续的生成 
+10. 复合生成 
 11. 使用 Gradle 图形用户界面
 12. 构建环境
 13. 故障排除
@@ -35,13 +35,13 @@ Gralde 学习笔记
 
 > 三、 编写 Gradle 生成脚本 【 Working with existing builds 】
 
-16. 构建脚本基础知识
-17. 建立初始化插件
-18. 编写生成脚本
+16. 构建脚本基础知识 √
+17. 建立初始化插件 √
+18. 编写生成脚本 √
 19. 任务的更多信息
 20. 工作文件
-21. 使用 Ant 从 Gradle
-22. 构建生命周期
+21. 使用 Ant 从 Gradle √
+22. 构建生命周期 
 23. 包装插件
 24. 日志记录
 25. 依赖关系管理
@@ -62,20 +62,20 @@ Gralde 学习笔记
 
 > 四、 扩展生成 【 Extending the build 】
 
-40. 编写自定义任务类
-41. 编写自定义插件
-42. Java Gradle 插件开发插件
+40. 编写自定义任务类 √
+41. 编写自定义插件 √
+42. Java Gradle 插件开发插件 √
 43. 组织生成逻辑
 44. 初始化脚本
 45. Gradle 测试工具包
 
 > 五、 建设 JVM 项目 【 Building JVM projects 】
 
-46. Java 快速入门
-47. Java 插件
+46. Java 快速入门 √
+47. Java 插件 √
 48. web 应用程序快速入门
-49. 战争插件
-50. 耳插件
+49. war 插件 √
+50. Ear 插件
 51. 码头的插件
 52. 应用程序插件
 53. Java 库分布插件
