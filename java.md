@@ -10,9 +10,55 @@ multiproject/
   
 ```
 
-未完待续   ❌ ❌ ❌ ❌ ❌ ❌ ❌
+
 
 注意: 这个例子的代码可以在 **samples/java/multiproject** 里找到. **要注意看**‘
 
 
+## 定义一个多项目构建
+
+为了定义一个多项目构建, 你需要创建一个设置文件 ( settings.file). 设置文件放在源代码的根目录, 它指定要包含哪个项目. 
+
+**它的名字必须叫做 _settings.gradle_**
+
+
+### 多项目构建 - settings.gradle file
+
+> settings.gradle
+
+  include "shared","api","services:webservice","services:shared"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+未完待续   ❌ ❌ ❌ ❌ ❌ ❌ ❌
+
+
 shell 文件夹 /Users/benny/myapplication/gradle_user_guide
+
+
+
+
+
