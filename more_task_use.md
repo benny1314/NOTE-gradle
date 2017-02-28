@@ -44,3 +44,6 @@ building the distribution
 ```
 
 由于**每个任务仅会被调用一次**,所以调用`gradle test test`与调用gradle test效果是相同的.
+
+当任务依赖**多个**任务的时候，`depedsOn:[]` 后面要跟的是数组
+
