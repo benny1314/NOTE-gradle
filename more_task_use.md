@@ -7,7 +7,7 @@
 
 ### 多任务调用
 
-> build.gradle+
+> build.gradle
 
 ```
 task compile << {
