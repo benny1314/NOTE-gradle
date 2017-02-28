@@ -6,8 +6,14 @@
 
 ### 1.2 配置环境变量
 
-    export GRADLE_HOME=/usr/local/gradle/gradle3.3  
-    export PATH=$PATH:$GRADLE_HOME/bin
+```bash
+vi ~/.bash_profile
+
+export GRADLE_HOME=/usr/local/gradle/gradle3.3  
+export PATH=$PATH:$GRADLE_HOME/bin
+
+source ~/.bash_profile
+```
 
 ### 1.3 验证安装
 
