@@ -27,4 +27,5 @@
   * [任务列表](list_items_tasks.md)
   * [获取任务具体信息](get_task_info.md)
   * [获取依赖信息](get_dependencies.md)
+  * [获取项目属性列表](list_items_properties.md)
 
