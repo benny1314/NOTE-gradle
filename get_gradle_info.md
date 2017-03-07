@@ -4,11 +4,12 @@
 
 ### 收集项目信息
 
-有个点需要注意，你需要进入到当前项目所在目录，才可以使用 `gradle projects` 命令
+有个点需要注意，**需要进入到当前项目所在的目录**，才可以使用 `gradle projects` 命令
 
 `gradle -q projects` 命令的输出结果
 
 ```
+> cd ~/gradle_user_guide/edu-parent
 > gradle -q projects
 ------------------------------------------------------------
 Root project
