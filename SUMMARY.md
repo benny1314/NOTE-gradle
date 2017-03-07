@@ -23,4 +23,5 @@
   * [简化任务名](make_task_simple.md)
   * [选择执行构建](choose_execuse_build.md)
 * [获取构建信息](get_gradle_info.md)
+  * [项目列表](list_items_projects.md)
 
