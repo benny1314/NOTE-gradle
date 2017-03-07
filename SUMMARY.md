@@ -25,4 +25,5 @@
 * [获取构建信息](get_gradle_info.md)
   * [项目列表](list_items_projects.md)
   * [任务列表](list_items_tasks.md)
+  * [获取任务具体信息](get_task_info.md)
 
