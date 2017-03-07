@@ -10,4 +10,4 @@
 
 ![日志浏览器显示](http://7xjlkb.com1.z0.glb.clouddn.com/20170307148886771768672.png)
 
-如果采用了 buildSrc, 那么在 buildSrc/build 下同时也会生成一份日志记录记录.
+如果采用了 **buildSrc**, 那么在 `buildSrc/build` 下同时也会生成一份日志记录记录.
