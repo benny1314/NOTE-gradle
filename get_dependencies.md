@@ -74,7 +74,9 @@ org.codehaus.groovy:groovy-all:2.3.3
 
 ```
 
-这个 task 对于了解依赖关系、了解为何选择此版本作为依赖十分有用.了解更多请参阅 DependencyInsightReportTask.
+这个 task 对于了解依赖关系、了解为何选择此版本作为依赖十分有用
+
+了解更多请参阅 DependencyInsightReportTask][(https://docs.gradle.org/current/dsl/org.gradle.api.tasks.diagnostics.DependencyInsightReportTask.html)
 
 dependencyInsight 任务是'Help'任务组中的一个. 这项任务需要进行配置才可以使用. Report 查找那些在指定的配置里特定的依赖.
 
