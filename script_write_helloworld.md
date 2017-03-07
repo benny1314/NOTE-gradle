@@ -11,7 +11,11 @@
 > build.gradle
 
 ```
-task hello {}
+task hello {
+    doLast {
+        println 'Hello world!'
+    }
+}
 ```
 
 #### 使用 `-q`模式，构建tasks
