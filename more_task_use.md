@@ -68,6 +68,10 @@ Total time: 1 secs
 
 ```
 
+可以看到，**test任务并没有被调用，即使它是 dist 任务的依赖。**同时 test 任务的依赖任务 compileTest 也没有被调用，而像 compile 被 test 和其他任务同时依赖的任务仍然会被调用
+
+
+
 
 
 
