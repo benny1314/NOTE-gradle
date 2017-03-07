@@ -22,10 +22,12 @@
   * [多任务调用](more_task_use.md)
   * [简化任务名](make_task_simple.md)
   * [选择执行构建](choose_execuse_build.md)
+    * 构建日志
 * [获取构建信息](get_gradle_info.md)
   * [项目列表](list_items_projects.md)
   * [任务列表](list_items_tasks.md)
   * [获取任务具体信息](get_task_info.md)
   * [获取依赖信息](get_dependencies.md)
   * [获取项目属性列表](list_items_properties.md)
+  * [构建日志](build_gradle_log.md)
 
