@@ -47,3 +47,28 @@ building the distribution
 
 当任务依赖**多个**任务的时候，`depedsOn:[]` 后面要跟的是数组
 
+## 排除任务
+
+你可以使用命令行选项`-x`来排除某些任务
+
+### 排除任务
+
+    gradle dist -x test
+
+```
+> gradle dist -x test
+:compile
+compiling source
+:dist
+building the distribution
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs
+
+```
+
+
+
+
+

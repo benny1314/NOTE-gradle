@@ -20,4 +20,5 @@
 * [网页应用入门](web_application_induction.md)
 * [使用 Gradle 命令行](use_gradle_command_line.md)
   * [多任务调用](more_task_use.md)
+  * [排除任务](exclude_task.md)
 
