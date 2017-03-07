@@ -33,7 +33,7 @@ using build file 'build.gradle' in 'subdir'.
 
 ```
 
-|参数|说明|格式|
+|参数|说明|    格式|
 |---|----|-----|
 |`-b` |参数用以指定脚本具体所在位置| `gradle ~/gradle_user_guide/benny_build.gradle 任务名`
 |`-p` |参数用以指定脚本目录即可    |`gradle ~/gradle_user_guide/ 任务名` 
