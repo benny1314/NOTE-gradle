@@ -30,4 +30,5 @@
   * [获取依赖信息](get_dependencies.md)
   * [获取项目属性列表](list_items_properties.md)
   * [构建日志](build_gradle_log.md)
+* [编写构建脚本](write_build_script.md)
 
