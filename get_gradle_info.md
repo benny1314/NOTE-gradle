@@ -28,6 +28,8 @@ For example, try running gradle :api:tasks
 
 #### 使用 `gradle -p 项目所在文件夹 project` 则可以不需要进入项目所在目录
 
+`gradle -p ~/edu-parent/ projects` 命令的输出结果
+
 ```
 > gradle -p ~/edu-parent/ projects
 ------------------------------------------------------------
