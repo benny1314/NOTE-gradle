@@ -9,18 +9,27 @@
 `gradle -q projects` 命令的输出结果
 
 ```
-> cd ~/gradle_user_guide/edu-parent
+> cd ~/edu-parent
 > gradle -q projects
 ------------------------------------------------------------
 Root project
 ------------------------------------------------------------
 
-Root project 'projectReports'
-+--- Project ':api' - The shared API for the application
-\--- Project ':webapp' - The Web application implementation
+Root project 'edu-parent'
++--- Project ':edu-common'
++--- Project ':edu-common-config'
++--- Project ':edu-common-core'
++--- Project ':edu-common-web'
++--- Project ':edu-facade-user'
++--- Project ':edu-service-user'
+\--- Project ':edu-web-main'
 
 To see a list of the tasks of a project, run gradle <project-path>:tasks
-For example, try running gradle :api:tasks
+For example, try running gradle :edu-common:tasks
+
+BUILD SUCCESSFUL
+
+Total time: 0.912 secs
 
 ```
 
@@ -31,16 +40,27 @@ For example, try running gradle :api:tasks
 `gradle -p ~/edu-parent/ projects` 命令的输出结果
 
 ```
-> gradle -p ~/edu-parent/ projects
+MacBook-Pro:edu-parent benny$ gradle -p ~/edu-parent/  projects
+:projects
+
 ------------------------------------------------------------
 Root project
 ------------------------------------------------------------
 
-Root project 'projectReports'
-+--- Project ':api' - The shared API for the application
-\--- Project ':webapp' - The Web application implementation
+Root project 'edu-parent'
++--- Project ':edu-common'
++--- Project ':edu-common-config'
++--- Project ':edu-common-core'
++--- Project ':edu-common-web'
++--- Project ':edu-facade-user'
++--- Project ':edu-service-user'
+\--- Project ':edu-web-main'
 
 To see a list of the tasks of a project, run gradle <project-path>:tasks
-For example, try running gradle :api:tasks
+For example, try running gradle :edu-common:tasks
+
+BUILD SUCCESSFUL
+
+Total time: 0.912 secs
 
 ```
