@@ -27,8 +27,7 @@ task dist(dependsOn: [compile, test]) << {
 
 可以直接写 `gradle di` 来调用 dist 任务
 
-```sql
-
+```
 > gradle di
 :compile
 compiling source
