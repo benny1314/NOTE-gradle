@@ -14,4 +14,4 @@ Project 对象提供了一些标准的属性，您可以在构建脚本中很方
 |version|Object|未具体说明|
 |ant|AntBuilder|Ant实例对象|
 
-此处可以直接查询  Dash 
+此处可以直接查询  **Dash **
