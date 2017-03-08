@@ -31,4 +31,5 @@
   * [获取项目属性列表](list_items_properties.md)
   * [构建日志](build_gradle_log.md)
 * [编写构建脚本](write_build_script.md)
+  * [gradle构建语言](gradle_build_language.md)
 
