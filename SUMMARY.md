@@ -36,4 +36,5 @@
   * [项目 API](project_api.md)
   * [标准项目属性](attribute_standard.md)
   * [脚本 API](script_api.md)
+  * [Groovy 基础](groovy_basic.md)
 
