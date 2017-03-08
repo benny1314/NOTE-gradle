@@ -78,7 +78,7 @@ plugin
 
 Project 对象可以在任何地方使用其拓展属性，他们比局部变量有更大的作用域，**一个项目的拓展属性对其子项目也可见**
 
-[关于ext详情参考](https://docs.gradle.org/current/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html)
+[关于ext详情参考官方文档说的非常明确](https://docs.gradle.org/current/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html)
 
 
 
