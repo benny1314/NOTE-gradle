@@ -24,6 +24,7 @@ task copy(type: Copy){
 
 ## 拓展属性
 
-在 Gradle 领域模型中所有被增强的对象能够拥有自己定义的属性。这包括，但不仅限于 **projects**、**tasks** 还有 **source sets**。 **Porject **对象可以添加、读取、更改拓展的属性。
+在 Gradle 领域模型中所有被增强的对象能够拥有自己定义的属性。这包括，但不仅限于 **projects**、**tasks** 还有 *sourceSets**。 **Porject **对象可以添加、读取、更改拓展的属性。
 
 **使用 ext 拓展块可以一次添加多个属性**
+
