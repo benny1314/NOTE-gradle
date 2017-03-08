@@ -26,7 +26,7 @@ task copy(type: Copy){
 
 在 Gradle 领域模型中所有被增强的对象能够拥有自己定义的属性。这包括，但不仅限于 **projects**、**tasks** 还有 *sourceSets**。 **Porject **对象可以添加、读取、更改拓展的属性。
 
-**使用 ext 拓展块可以一次添加多个属性**
+** 💔 使用 ext 拓展块可以一次添加多个属性**
 
 ### 使用拓展属性
 
@@ -63,8 +63,22 @@ sourceSets {
 
 ```
 
+```
+> gradle -q printProperties
+3.1.0.RELEASE
+build@master.org
+main
+plugin
 
+```
 
+一个 **ext** 拓展块向 **Project** 对象添加了两个拓展属性。名为 **purpose** 的属性被添加到每个 **sourceSets**，然后 设置 `ext.purpose` 等于 `null` （null值是被允许的）。当这些属性被添加后，他们就像预定义的属性一样可以被读取，更改值。
+
+我们通过一个特殊的语句添加拓展属性，当您试图设置一个预定义属性或者拓展属性，但是属性名拼写错误或者不存在时，操作就会失败。
+
+Project 对象可以在任何地方使用其拓展属性，他们比局部变量有更大的作用域，**一个项目的拓展属性对其子项目也可见**
+
+[关于ext详情参考](https://docs.gradle.org/current/dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html)
 
 
 
