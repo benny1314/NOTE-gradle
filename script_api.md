@@ -28,3 +28,43 @@ task copy(type: Copy){
 
 **使用 ext 拓展块可以一次添加多个属性**
 
+### 使用拓展属性
+
+> build.gradle
+
+```
+apply plugin: "java"
+
+ext {
+    springVersion = "4.2.4.RELEASE"
+    emailNotification = "build@master.org"
+}
+
+sourceSets.all { ext.purpose = null }
+
+sourceSets {
+    main {
+        purpose = "production"
+    }
+    test {
+        purpose = "test"
+        }
+    plugin {
+        purpose = "production"
+    }
+
+    }
+
+    task printProperties << {
+        println springVersion
+        println emailNotification
+        sourceSets.matching { it.purpose == "production" }.each { println it.name }
+    }
+
+```
+
+
+
+
+
+
