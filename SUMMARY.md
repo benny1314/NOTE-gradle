@@ -35,4 +35,5 @@
   * [gradle构建语言](gradle_build_language.md)
   * [项目 API](project_api.md)
   * [标准项目属性](attribute_standard.md)
+  * [脚本 API](script_api.md)
 
