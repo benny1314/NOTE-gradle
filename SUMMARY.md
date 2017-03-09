@@ -41,4 +41,5 @@
 * [深入了解tasks](understand_tasks_deeply.md)
   * [构建任务](build_tasks.md)
   * [定位 tasks](point_tasks.md)
+  * [配置 tasks](configue_tasks.md)
 
