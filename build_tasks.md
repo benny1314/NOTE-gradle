@@ -23,3 +23,35 @@ task(copy, type: Copy) {
 
 ```
 
+### 使用 字符串 来定义任务的名字
+
+> build.gradle
+
+```
+task('hello') <<{
+    println "hello"
+}
+
+task('copy', type: Copy) {
+    from(file('srcDir'))
+    into(buildDir)
+}
+
+```
+
+### 更加直观声明任务的形式
+
+> build.gradle
+
+```
+tasks.create(name: 'hello') <<{
+    println "hello"
+}
+
+tasks.create(name: 'copy', type: Copy) {
+    from(file('srcDir'))
+    into(buildDir)
+}
+
+```
+
