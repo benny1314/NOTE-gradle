@@ -38,4 +38,5 @@
   * [脚本 API](script_api.md)
   * [Groovy 基础](groovy_basic.md)
     * [Groovy 注意点](groovy_attention.md)
+* [深入了解tasks](understand_tasks_deeply.md)
 
