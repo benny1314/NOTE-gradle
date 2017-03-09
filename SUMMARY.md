@@ -40,4 +40,5 @@
     * [Groovy 注意点](groovy_attention.md)
 * [深入了解tasks](understand_tasks_deeply.md)
   * [构建任务](build_tasks.md)
+  * [定位 tasks](point_tasks.md)
 
