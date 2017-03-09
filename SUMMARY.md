@@ -39,5 +39,5 @@
   * [Groovy 基础](groovy_basic.md)
     * [Groovy 注意点](groovy_attention.md)
 * [深入了解tasks](understand_tasks_deeply.md)
-  * [构建任务](build_tasks.md.md)
+  * [构建任务](build_tasks.md)
 
