@@ -38,8 +38,10 @@
   * [脚本 API](script_api.md)
   * [Groovy 基础](groovy_basic.md)
     * [Groovy 注意点](groovy_attention.md)
+  * 给任务添加依赖
 * [深入了解tasks](understand_tasks_deeply.md)
   * [构建任务](build_tasks.md)
   * [定位 tasks](point_tasks.md)
   * [配置 tasks](configue_tasks.md)
+  * [给任务添加依赖](add_dependencies_on_tasks.md)
 

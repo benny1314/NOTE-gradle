@@ -68,7 +68,7 @@ task copy(type: Copy) {
 
 请不要忘了构建的各个阶段.
 
-一个任务有配置和动作. 当使用 << 时, 你只是简单的使用捷径定义了动作. 定义在配置区域的代码只会在构建的配置阶段执行, 而且不论执行哪个任务. 可以参考第 55 章, The Build Lifecycle for more details about the build lifecycle.
+一个任务有配置和动作. 当使用 `<<` 时, 你只是简单的使用捷径定义了动作. 定义在配置区域的代码只会在构建的配置阶段执行, 而且不论执行哪个任务. 可以参考第 55 章, The Build Lifecycle for more details about the build lifecycle.
 
 
 
