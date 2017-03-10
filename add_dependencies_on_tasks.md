@@ -29,6 +29,34 @@ taskY
 taskX
 
 ```
+> 除了使用任务名称, 你也可以定义一个依赖对象y:
+
+### 通过任务对象加入依赖
+
+> build.gradle
+
+```
+task taskX <<{
+    println 'taskX'
+}
+
+task taskY <<{
+    println 'taskY'
+}
+
+taskX.dependsOn taskY
+
+```
+
+`gradle -q taskY` 的输出
+
+```
+> gradle -q taskX
+
+taskY
+taskX
+
+```
 
 
 
