@@ -29,9 +29,10 @@ taskY
 taskX
 
 ```
-> 除了使用任务名称, 你也可以定义一个依赖对象y:
 
-### 通过任务对象加入依赖
+### 除了使用任务名称, 你也可以定义一个依赖对象y:
+
+#### 通过任务对象加入依赖
 
 > build.gradle
 
@@ -58,6 +59,45 @@ taskX
 
 ```
 
+**更加先进的用法, 你可以通过闭包定义一个任务依赖**. 闭包只能返回一个单独的 Task 或者 Task 对象的 collection, 这些返回的任务就将被当做依赖. 
 
+接下来的例子给 taskX 加入了一个复杂的依赖, 所有以 lib 开头的任务都将在 taskX 之前执行:
 
+### 通过比高加入依赖
 
+> build.gradle
+
+```
+task taskX << {
+    println 'taskX'
+}
+
+taskX.dependsOn {
+    tasks.findAll{task -> task.name.startsWith('lib')}
+}
+
+task lib1 << {
+    println 'lib1'
+}
+
+task lib2 << {
+    println 'lib2'
+}
+
+task notALib<< {
+    println 'notALib'
+}
+
+```
+
+`gradle -q taskX` 的输出
+
+```
+> gradle -q taskX
+lib1
+lib2
+taskX
+
+```
+
+`task.name.startsWith('lib')` 是 **starts** 不是 ~~start~~
