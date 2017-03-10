@@ -100,4 +100,4 @@ taskX
 
 ```
 
-`task.name.startsWith('lib')` 是 **starts** 不是 ~~start~~
+`task.name.startsWith('lib')` 是 **startsWith** 不是 ~~startWith~~
