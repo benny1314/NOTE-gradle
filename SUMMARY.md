@@ -45,4 +45,5 @@
   * [配置 tasks](configue_tasks.md)
   * [给任务添加依赖](add_dependencies_on_tasks.md)
   * [给 tasks 排序](sort_tasks.md)
+  * [给 task 加入描述](add_description_on_task.md)
 
