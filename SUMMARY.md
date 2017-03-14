@@ -48,4 +48,7 @@
   * [给 task 加入描述](add_description_on_task.md)
   * [跳过tasks](jump_tasks.md)
   * [跳过 up-to-date 的任务](jump_up_to_date_task.md)
+  * [Task 规则](task_rule.md)
+  * [终止 tasks](stop_tasks.md)
+* [文件操作](file_handle.md)
 

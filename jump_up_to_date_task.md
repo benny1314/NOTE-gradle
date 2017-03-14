@@ -103,9 +103,26 @@ Transforming source file.
 
 任务的输入属性是 [TaskInputs](https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/TaskInputs.html#gsc.tab=0)类型. 任务的输出属性是 [TaskOutputs](https://docs.gradle.org/current/javadoc/org/gradle/api/tasks/TaskOutputs.html#upToDateWhen(groovy.lang.Closure)类型.
 
+一个任务如果没有定义输出的话, 那么它永远都没用办法判断 up-to-date. 对于某些场景, 比如一个任务的输出不是文件, 或者更复杂的场景, TaskOutputs.upToDateWhen()) 方法会计算任务的输出是否应被视为最新.
+
+总而言之, **如果一个任务只定义了输出, 如果输出不变的话, 它就会被视为 up-to-date.**
+
 ##### 使用规则
 
-如果   
+如果你要使用 属性的话，官方文档上已经明确说明了
+
+![](http://7xjlkb.com1.z0.glb.clouddn.com/20170314112642_gradle_user_guide.png)
+
+### 它是如何工作的?
+
+当一个任务是首次执行时, Gradle 会取一个输入的快照 (snapshot). 该快照包含组输入文件和每个文件的内容的散列. 然后当 Gradle 执行任务时, 如果任务成功完成，Gradle 会获得一个输出的快照. 该快照包含输出文件和每个文件的内容的散列. Gradle 会保留这两个快照用来在该任务的下一次执行时进行判断.
+
+之后, 每次在任务执行之前, Gradle 都会为输入和输出取一个新的快照, 如果这个快照和之前的快照一样, Gradle 就会假定这个任务已经是最新的 (up-to-date) 并且跳过任务, 反之亦然.
+需要注意的是, 如果一个任务有指定的输出目录, 自从该任务上次执行以来被加入到该目录的任务文件都会被忽略, 并且不会引起任务过时 (out of date). 这是因为不相关任务也许会共用同一个输出目录. 如果这并不是你所想要的情况, 可以考虑使用 TaskOutputs.upToDateWhen())
+
+
+
+
 
 
 
