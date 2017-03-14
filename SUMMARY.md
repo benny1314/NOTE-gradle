@@ -47,4 +47,5 @@
   * [给 tasks 排序](sort_tasks.md)
   * [给 task 加入描述](add_description_on_task.md)
   * [跳过tasks](jump_tasks.md)
+  * [跳过 up-to-date 的任务](jump_up_to_date_task.md)
 

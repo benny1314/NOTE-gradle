@@ -36,8 +36,61 @@ Total time: 1 secs
 
 如果这个异常是被一个任务要执行的动作抛出的, 这个动作之后的执行以及所有紧跟它的动作都会被跳过. 构建将会继续执行下一个任务.
 
+#### 通过 StopExecutionException 跳过任务
 
+> build.gradle
 
+```
+task compile << {
+    println 'We are doing the compile.'
+}
 
+compile.doFirst {
+    // Here you would put arbitrary conditions in real life.
+    // But this is used in an integration test so we want defined behavior.
+    if (true) { throw new StopExecutionException() }
+}
+task myTask(dependsOn: 'compile') << {
+   println 'I am not affected'
+}
 
+```
 
+`gradle -q myTask` 的输出
+
+```
+> gradle -q myTask
+I am not affected
+
+```
+
+### 激活和注销 tasks
+
+如果你直接使用 Gradle 提供的任务, 这项功能还是十分有用的. 它允许你为内建的任务加入条件来控制执行
+
+每一个任务都有一个已经激活的标记(**enabled **flag), 这个标记一般默认为真. 将它设置为假, 那它的任何动作都不会被执行.
+
+#### 激活和注销 tasks
+
+> build.gradle
+
+```
+task disableMe << {
+    println 'This should not be printed if the task is disabled.'
+}
+
+disableMe.enabled = false
+
+```
+
+`gradle disableMe` 的输出
+
+```
+> gradle disableMe
+:disableMe SKIPPED
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs
+
+```
