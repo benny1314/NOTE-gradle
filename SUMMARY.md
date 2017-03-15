@@ -51,4 +51,5 @@
   * [Task 规则](task_rule.md)
   * [终止 tasks](stop_tasks.md)
 * [文件操作](file_handle.md)
+  * [定位文件](point_file.md)
 
