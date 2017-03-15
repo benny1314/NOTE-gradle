@@ -33,7 +33,7 @@ collection.each {File file ->
 Set set = collection.files
 Set set2 = collection as Set
 List list = collection as List
-String path = collection.asPath
+String ath = collection.asPath
 File file = collection.singleFile
 File file2 = collection as File
 
@@ -67,9 +67,34 @@ task list << {
 
 ```
 
+使用 `gradle -q list` 输出结果
 
+```
+> gradle -q list
+Contents of src
+src/dir1
+src/file1.txt
+Contents of src2
+src2/dir1
+src2/dir2
 
+```
 
+另外, `files()` 方法也接收其他类型的参数:
+
+**FileCollection**
+
+内容损坏的文件包含在文件集合中.
+
+**Task**
+
+任务的输出文件包含在文件集合中.
+
+**TaskOutputs**
+
+`TaskOutputs` 的输出文件包含在文件集合中
+
+值得注意的是当有需要时文件集合的内容会被被惰性处理,就比如一些任务在需要的时候会创建一个 **FileCollecion **代表的文件集合.
 
 
 
