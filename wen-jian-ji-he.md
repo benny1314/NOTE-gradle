@@ -53,7 +53,7 @@ def different = collection - files('src/file3.txt')
 task list << {
     File srcDir
 
-    // 使用闭合创建一个文件集合
+    // 使用闭包创建一个文件集合
     collection = files { srcDir.listFiles() }
 
     srcDir = file('src')
