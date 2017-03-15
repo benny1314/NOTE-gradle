@@ -53,4 +53,5 @@
 * [文件操作](file_handle.md)
   * [定位文件](point_file.md)
   * [文件集合](wen-jian-ji-he.md)
+  * [文件数](wen-jian-shu.md)
 
