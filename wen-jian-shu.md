@@ -29,6 +29,32 @@ tree = fileTree(dir: 'src', include: '**/*.java')
 tree = fileTree(dir: 'src', includes: ['**/*.java', '**/*.xml'])
 tree = fileTree(dir: 'src', include: '**/*.java', exclude: '**/*test*/**')
 
+```
+
+就像使用文件集合一样,你可以访问文件树的内容,使用 Ant-style 规则选择一个子树。
+
+> 使用文件树 build.gradle
 
 ```
+
+// 遍历文件树
+tree.each {File file ->
+    println file
+}
+
+// 过滤文件树
+FileTree filtered = tree.matching {
+    include 'org/gradle/api/**'
+}
+
+// 合并文件树A
+FileTree sum = tree + fileTree(dir: 'src/test')
+
+// 访问文件数的元素
+tree.visit {element ->
+    println "$element.relativePath => $element.file"
+}
+
+```
+
 
