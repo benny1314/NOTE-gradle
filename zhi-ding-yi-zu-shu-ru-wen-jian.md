@@ -29,7 +29,7 @@ compile {
     source = fileTree(dir: 'src/main/java').matching { include 'org/gradle/api/**' }
 }
 
-// 使用一个闭合设置源目录
+// 使用一个闭包设置源目录
 compile {
     source = {
         // Use the contents of each zip file in the src dir
@@ -38,3 +38,45 @@ compile {
 }
 
 ```
+
+通常情况下,会有一个方法名和属性名相同的方法能够附加一组文件,这个方法接收 `files()` 方法支持的任何类型的值.
+
+### 指定文件
+
+> build.gradle
+
+```
+compile {
+    // 使用字符路径添加源目录
+    source 'src/main/java', 'src/main/groovy'
+
+    // 使用 File 对象添加源目录
+    source file('../shared/java')
+
+    // 使用闭包添加源目录
+    source { file('src/test/').listFiles() }
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
