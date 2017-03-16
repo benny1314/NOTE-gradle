@@ -50,8 +50,11 @@
   * [跳过 up-to-date 的任务](jump_up_to_date_task.md)
   * [Task 规则](task_rule.md)
   * 任务类型列表
+    * 指定一组输入文件
 * [文件操作](file_handle.md)
   * [定位文件](point_file.md)
   * [文件集合](wen-jian-ji-he.md)
   * [文件树](wen-jian-shu.md)
+  * [使用一个归档文件的内容作为文件树](shi-yong-yi-ge-gui-dang-wen-jian-de-nei-rong-zuo-wei-wen-jian-shu.md)
+  * [指定一组输入文件](zhi-ding-yi-zu-shu-ru-wen-jian.md)
 
