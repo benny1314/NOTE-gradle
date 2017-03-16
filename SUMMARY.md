@@ -59,4 +59,6 @@
   * [使用一个归档文件的内容作为文件树](shi-yong-yi-ge-gui-dang-wen-jian-de-nei-rong-zuo-wei-wen-jian-shu.md)
   * [指定一组输入文件](zhi-ding-yi-zu-shu-ru-wen-jian.md)
   * [复制文件](fu-zhi-wen-jian.md)
+  * [使用同步任务](shi-yong-tong-bu-ren-wu.md)
+  * [创建归档文件](chuang-jian-gui-dang-wen-jian.md)
 
