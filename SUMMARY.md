@@ -61,4 +61,6 @@
   * [复制文件](fu-zhi-wen-jian.md)
   * [使用同步任务](shi-yong-tong-bu-ren-wu.md)
   * [创建归档文件](chuang-jian-gui-dang-wen-jian.md)
+  * Logging
+* [日志管理](ri-zhi-guan-li.md)
 
