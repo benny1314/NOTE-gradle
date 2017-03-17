@@ -6,6 +6,8 @@
 
 ### 配置标准输出捕获
 
+> build.gradle
+
 ```
 logging.captureStandardOutput LogLevel.INFO
 println 'A message which is logged at INFO level'
