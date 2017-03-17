@@ -28,5 +28,5 @@ task logInfo {
 
 ```
 
-Gradle同样提供了 `Java Util Logging,Jakarta Commons Logging` 和Log4j logging的集成工具.
+Gradle 同样提供了 `Java Util Logging,Jakarta Commons Logging` 和Log4j logging的集成工具.
 使用这些工具包编写的构建的类的记录的任何日志消息都将被重定向到Gradle的日志记录系统。
