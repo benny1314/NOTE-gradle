@@ -64,4 +64,5 @@
   * Logging
 * [日志管理](ri-zhi-guan-li.md)
   * [编写自己的日志信息](ri-zhi-guan-li/bian-xie-zi-ji-de-ri-zhi-xin-xi.md)
+  * [从外部工具和库记录日志](ri-zhi-guan-li/cong-wai-bu-gong-ju-he-ku-ji-lu-ri-zhi.md)
 
